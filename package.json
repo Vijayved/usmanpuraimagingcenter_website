@@ -1,0 +1,16 @@
+{
+  "name": "uic-wati-bot",
+  "version": "1.0.0",
+  "description": "Usmanpura Imaging Centre WhatsApp Bot — powered by WATI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev":   "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios":   "^1.6.0",
+    "dotenv":  "^16.3.1",
+    "nodemon": "^3.0.2"
+  }
+}
